@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin : 0; 
+    font-family: roboto, sans-serif;
+}
+
+ul.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    height: 50px;
+    background: #f29d13;
+    font: 900px; ;
+}
+li:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #f29d13;
+    height: 100%;
+    align-content: center;
+    transition: background-color 2s ease, color 0.2s ease;
+
+}

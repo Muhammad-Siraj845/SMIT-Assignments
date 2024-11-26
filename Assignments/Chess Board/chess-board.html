@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Chess Board</title>
+    <style>
+        /* Remove any default margins and paddings */
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+        .chess-square {
+            width: 30px; /* Adjusted size for smaller squares */
+            height: 30px; /* Adjusted size for smaller squares */
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center min-h-screen bg-gray-200">
+    <div class="flex flex-col items-center">
+        <div class="flex flex-row">
+            <!-- Numbers on top -->
+            <div class="h-8 w-8 flex justify-center items-center font-bold">1</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">2</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">3</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">4</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">5</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">6</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">7</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold">8</div>
+        </div>
+
+        <div class="flex">
+            
+            <div class="flex flex-col justify-center">
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">A</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">B</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">C</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">D</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">E</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">F</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">G</span></div>
+                <div class=" flex items-center justify-center h-8 w-8"><span class="font-bold">H</span></div>
+            </div>
+
+            <div class="grid grid-cols-8" style="grid-template-rows: repeat(8, 30px);">
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+                <div class="bg-gray-800 chess-square"></div>
+                <div class="bg-white chess-square"></div>
+            </div>
+
+    
+            <div class="flex flex-col justify-center">
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">A</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8""><span class="font-bold">B</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8""><span class="font-bold">D</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">C</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">E</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">F</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">G</span></div>
+                <div class="transform rotate-180 flex items-center justify-center h-8 w-8"><span class="font-bold">H</span></div>
+            </div>
+        </div>
+
+        <div class="flex">
+          
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">1</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">2</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">3</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">4</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">5</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">6</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">7</div>
+            <div class="h-8 w-8 flex justify-center items-center font-bold rotate-180">8</div>
+        </div>
+    </div>
+</body>
+</html>

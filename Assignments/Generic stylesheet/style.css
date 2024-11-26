@@ -1,0 +1,94 @@
+.margin-1{
+    margin:4px
+}
+.margin-2{
+    margin:8px
+}
+.margin-3{
+    margin:12px
+}
+.margin-4{
+    margin:16px
+}
+.margin-5{
+    margin:20px
+}
+.margin-6{
+    margin:24px
+}
+.margin-auto{
+    margin:auto
+}
+
+.padding-1{
+    padding:4px
+}
+.padding-2{
+    padding:8px
+}
+.padding-3{
+    padding:12px
+}
+.padding-4{
+    padding:16px
+}
+.padding-5{
+    padding:20px
+}
+.padding-6{
+    padding:24px
+}
+.padding-auto{
+    padding:auto
+}
+
+.width-1{
+    width:100px
+}
+.width-2{
+    width:200px
+}
+.width-3{
+    width:300px
+}
+.width-4{
+    width:400px
+}
+.width-15{
+    width:150px
+}
+.width-25{
+    width:250px
+}
+.width-35{
+    width:350px
+}
+.width-auto{
+    width:auto
+}
+
+
+.height-1{
+    height:100px
+}
+.height-2{
+    height:200px
+}
+.height-3{
+    height:300px
+}
+.height-4{
+    height:400px
+}
+.height-15{
+    height:150px
+}
+.height-25{
+    height:250px
+}
+.height-35{
+    height:350px
+}
+.height-auto{
+    height:auto
+}

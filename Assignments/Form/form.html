@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="mt-52 ml-96 flex flex-col">
+    <div class="flex mb-2">
+        <label for="select" class="w-40 text-blue-400">Select Country</label>
+        <label for="slt" class="w-40 ml-80 text-blue-400">Select City</label>
+    </div>
+    <div class="flex">
+        <select class="h-12 w-2/5 border border-gray-300 rounded-lg px-4" id="select">
+            <option class="p-2">Select</option>
+            <option class="p-2">Pakistan</option>
+            <option class="p-2">Turkey</option>
+        </select>
+        
+        <select class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 ml-7" id="slt">
+            <option class="p-2">Select City</option>
+            <option class="p-2">Karachi</option>
+            <option class="p-2">Dadu</option>
+        </select>
+    </div>
+</div>
+
+
+<div class="mt-5 ml-96 flex flex-col">
+  <div class="flex mb-2">
+      <label for="course" class="w-40 text-blue-400">Select Course or Event</label>
+      <label for="comp" class="w-40 ml-80 text-blue-400">Select Your Computer Effieciency</label>
+  </div>
+  <div class="flex">
+      <select class="h-12 w-2/5 border border-gray-300 rounded-lg px-4" id="course">
+          <option class="p-2">Select</option>
+          <option class="p-2">Web Development</option>
+          <option class="p-2">React Native</option>
+      </select>
+      
+      <select class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 ml-7" id="comp">
+          <option class="p-2">Beginner</option>
+          <option class="p-2">Intermediate</option>
+          <option class="p-2">Advance</option>
+      </select>
+  </div>
+</div>
+<div class="mt-5 ml-96 flex flex-col">
+  <div class="flex mb-2">
+      <label for="name" class="w-40 text-blue-400">Full Name</label>
+      <label for="Fname" class="w-40 ml-80 text-blue-400">Father Name</label>
+  </div>
+  <div class="flex">
+      <input type="text" placeholder="Your Name" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 text-blue-400" id="name">
+      <input type="text" placeholder="Father Name" class=" ml-7 h-12 w-2/5 border border-gray-300 rounded-lg px-4 text-blue-400" id="Fname">
+          
+      
+     
+  </div>
+</div>
+<div class="mt-5 ml-96 flex flex-col">
+  <div class="flex mb-2">
+      <label for="email" class="w-40 text-blue-400">Email</label>
+      <label for="phone" class="w-40 ml-80 text-blue-400">Phone</label>
+  </div>
+  <div class="flex">
+      <input type="email" placeholder="Email Address" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4" id="email">
+          
+      
+      <input type="number" placeholder="Phone" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 ml-7" id="phone">
+          
+  </div>
+</div>
+
+<div class="mt-5 ml-96 flex flex-col">
+  <div class="flex mb-2">
+      <label for="CNIC" class="w-40 text-blue-400">CNIC</label>
+      <label for="FN" class="w-40 ml-80 text-blue-400">Father CNIC</label>
+  </div>
+  <div class="flex">
+    <input type="number" placeholder="CNIC" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4" id="NIC">
+    <input type="number" placeholder="Father CNIC" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 ml-7" id="FN">
+
+      
+   
+  </div>
+</div>
+<div class="mt-5 ml-96 flex flex-col">
+  <div class="flex mb-2">
+      <label for="date" class="w-40 text-blue-400">Date Of Birth</label>
+      <label for="gender" class="w-40 ml-80 text-blue-400">Select Gender</label>
+  </div>
+  <div class="flex">
+    <input type="date" placeholder="CNIC" id="date" class="h-12 w-2/5 border border-gray-300 rounded-lg px-4" id="select">
+      
+      
+      <select class="h-12 w-2/5 border border-gray-300 rounded-lg px-4 ml-7" id="gender">
+          <option class="p-2">Select City</option>
+          <option class="p-2">Male</option>
+          <option class="p-2">Female</option>
+      </select>
+  </div>
+</div>
+        
+          
+        
+    <div class="mt-5 ml-96">
+      <div class="flex mb-2">
+      <label for="add" class="w-40">Adress</label>
+
+      </div>
+      <input type="text" placeholder="Address" id="add" class="h-12 w-5/6 border border-gray-300 rounded-lg px-4 text-blue-400">
+          
+        
+  
+      </div>      
+  
+      <div class="mt-5 ml-96">
+        <div>
+      <label for="quali" class="w-40">Last Qualification</label>
+
+        </div>
+        <select class="h-12 w-5/6 border border-gray-300 rounded-lg px-4 text-blue-400" id="quali">
+            <option class="p-2">Matric</option>
+            <option class="p-2">Intermediate</option>
+            <option class="p-2">Undergraduate</option>
+          </select>
+    
+          
+    
+        </div>   
+        <div class="mt-5 ml-96">
+          <div>
+      <label for="lap" class="w-40 text-blue-400">Do You Have a Laptop</label>
+
+          </div>
+          <select class="h-12 w-5/6 border border-gray-300 rounded-lg px-4" id="lap">
+              <option class="p-2">Yes</option>
+              <option class="p-2">No</option>
+            </select>
+      
+            
+      
+          </div>  
+
+            
+    <div>
+      <label for="myfile"></label>
+     
+      <input type="file" id="myfile" name="myfile" class="ml-96 mt-5 mb-5">
+
+    </div>
+<ol type="1" class="ml-96">
+  <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+  <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+  <li>Defiance will render my admission canceled at any point in time.</li>
+  <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+  <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+</ol>
+    
+
+
+
+
+<button type="submit" class="ml-96 bg-blue-400 w-3/5 mt-5 mb-10 h-10  font-bold text-white">SUBMIT</button>
+</body>
+</html>
